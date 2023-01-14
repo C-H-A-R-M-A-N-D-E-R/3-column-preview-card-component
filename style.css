@@ -46,6 +46,14 @@ body {
     max-width: calc(860rem / 16);
 }
 
+.container .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+
 .sedans {
     background-color: var(--bright-orange);
 }
