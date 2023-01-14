@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/c-h-a-r-m-a-n-d-e-r/3-column-preview-card-component/tree/gh-pages)
+- Live Site URL: [Website](https://c-h-a-r-m-a-n-d-e-r.github.io/3-column-preview-card-component/)
 
 ## My process
 
