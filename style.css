@@ -1,0 +1,126 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    /* Colors */
+
+    /* Primary */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* Neutral */
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+/* CSS RESET */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: calc(20rem / 16);
+    font-size: calc(15rem / 16);
+    line-height: 1.5;
+    font-family: 'Lexend Deca';
+}
+
+/* Main */
+.container {
+    border-radius: calc(7rem / 16);
+    overflow: hidden;
+    max-width: calc(860rem / 16);
+}
+
+.sedans {
+    background-color: var(--bright-orange);
+}
+
+.sedans .links {
+    color: var(--bright-orange);
+}
+
+.suvs {
+    background-color: var(--dark-cyan);
+}
+
+.suvs .links {
+    color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+}
+
+.luxury .links {
+    color: var(--very-dark-cyan);
+}
+
+.card {
+    padding: calc(40rem / 16);
+}
+
+.sub-heading {
+    color: var(--very-light-gray);
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+    font-size: calc(30rem / 16);
+    margin: calc(17rem / 16) 0;
+}
+
+.text {
+    color: var(--transparent-white);
+    opacity: .9;
+}
+
+.links {
+    background-color: var(--very-light-gray);
+    padding: calc(10rem / 16) 1.65rem;
+    text-decoration: none;
+    width: fit-content;
+    border-radius: calc(35rem / 16);
+    display: block;
+    margin-top: calc(20rem / 16);
+}
+
+/* Footer */
+.attribution {
+    font-size: calc(11rem / 16);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 34.375em) {
+    .container {
+        display: flex;
+    }
+
+    .links {
+        margin-top: calc(80rem / 16);
+    }
+
+    .links:hover {
+        cursor: pointer;
+        background-color: transparent;
+        border: 2px solid var(--very-light-gray);
+        color: var(--very-light-gray);
+    }
+}
